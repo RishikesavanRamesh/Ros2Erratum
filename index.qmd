@@ -1,0 +1,34 @@
+---
+title: "ROS 2 : ERROR INDEX"
+tbl-colwidths: [10,10,60]
+---
+
+::: column-screen-inset-right
+| ERROR ID | COMMIT | Short Description  |
+|:------|:--------:|--------|
+| ERR2064033 | 32ed45a | [Error when converting Xacro to Urdf](errors/ERR2064033.qmd) |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | [32ed45a](https://github.com/RishikesavanRamesh/resume-src/commit/09aca5e9a05fc738d43cf1bbcee3909683d68159) | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+| ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
+
+
+:::
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```
