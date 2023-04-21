@@ -59,6 +59,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -106,6 +109,36 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Index</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../feedback.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Feedback</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -116,7 +149,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hfuunny" id="toc-hfuunny" class="nav-link active" data-scroll-target="#hfuunny">hfuunny</a></li>
+  <li><a href="#error-code" id="toc-error-code" class="nav-link active" data-scroll-target="#error-code">Error Code</a>
+  <ul class="collapse">
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#symptoms" id="toc-symptoms" class="nav-link" data-scroll-target="#symptoms">Symptoms</a></li>
+  <li><a href="#causes" id="toc-causes" class="nav-link" data-scroll-target="#causes">Causes</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
+  <li><a href="#prevention" id="toc-prevention" class="nav-link" data-scroll-target="#prevention">Prevention</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  <li><a href="#context" id="toc-context" class="nav-link" data-scroll-target="#context">Context</a></li>
+  <li><a href="#git-commit-sha" id="toc-git-commit-sha" class="nav-link" data-scroll-target="#git-commit-sha">Git Commit SHA</a></li>
+  <li><a href="#rectification-methods" id="toc-rectification-methods" class="nav-link" data-scroll-target="#rectification-methods">Rectification Methods</a></li>
+  <li><a href="#how-the-error-was-rectified" id="toc-how-the-error-was-rectified" class="nav-link" data-scroll-target="#how-the-error-was-rectified">How the Error was Rectified</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sta210-s22/website/edit/main/errors/ERR2064033.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sta210-s22/website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -125,10 +170,116 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="hfuunny" class="level1">
-<h1>hfuunny</h1>
+<section id="error-code" class="level1">
+<h1>Error Code</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p><br><br></p>
 
 
+<style>
+.terminal {
+  background-color: #5E2750;
+  color: #f0f0f0;
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 0.5rem;
+  white-space: pre-wrap;
+}
+
+.terminal .prompt {
+  color: lightgreen;
+  margin-right: 0.5rem;
+}
+
+.terminal .output {
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+.terminal .error {
+  color: #ff5f5f;
+  margin-left: 0.5rem;
+}
+
+</style>
+<pre class="terminal"><span class="prompt">user@ubuntu:~$</span> echo "This is some text."
+<br>
+<span class="output">This is some text.</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> ls
+<br>
+<span class="output">file1.txt file2.txt file3.txt</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> cat file1.txt
+<br>
+<span class="output">Contents of file1.txt</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> sudo apt-get install package-name
+<br>
+<span class="error">Error: sudo: command not found</span>
+</pre>
+
+
+<p><br><br></p>
+<p>Brief description of the error code.</p>
+</section>
+<section id="symptoms" class="level2">
+<h2 class="anchored" data-anchor-id="symptoms">Symptoms</h2>
+<p>List of symptoms that indicate the error.</p>
+</section>
+<section id="causes" class="level2">
+<h2 class="anchored" data-anchor-id="causes">Causes</h2>
+<p>Description of the underlying causes of the error.</p>
+</section>
+<section id="solutions" class="level2">
+<h2 class="anchored" data-anchor-id="solutions">Solutions</h2>
+<ol type="1">
+<li>Step-by-step instructions for fixing the error.</li>
+<li>Alternative solutions or workarounds, if applicable.</li>
+</ol>
+</section>
+<section id="prevention" class="level2">
+<h2 class="anchored" data-anchor-id="prevention">Prevention</h2>
+<p>Tips for preventing the error from occurring in the future.</p>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<p>Links to relevant documentation, forums, or support channels.</p>
+</section>
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>Description of what you were trying to do when you encountered the error.</p>
+</section>
+<section id="git-commit-sha" class="level2">
+<h2 class="anchored" data-anchor-id="git-commit-sha">Git Commit SHA</h2>
+<p>The Git commit SHA value where you encountered the error.</p>
+</section>
+<section id="rectification-methods" class="level2">
+<h2 class="anchored" data-anchor-id="rectification-methods">Rectification Methods</h2>
+<p>Description of the methods used for rectifying the error.</p>
+</section>
+<section id="how-the-error-was-rectified" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-error-was-rectified">How the Error was Rectified</h2>
+<p>Detailed steps taken to rectify the error.</p>
+
+
+</section>
 </section>
 
 </main> <!-- /main -->

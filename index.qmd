@@ -4,7 +4,7 @@ tbl-colwidths: [10,10,60]
 ---
 
 ::: column-screen-inset-right
-| ERROR ID | COMMIT | Short Description  |
+| ERROR ID | Snapshot | Short Description  |
 |:------|:--------:|--------|
 | ERR2064033 | 32ed45a | [Error when converting Xacro to Urdf](errors/ERR2064033.qmd) |
 | ERR2064033 | 32ed45a | Error when converting Xacro to Urdf |
@@ -31,4 +31,4 @@ tbl-colwidths: [10,10,60]
 
 ```{r echo = FALSE}
 knitr::knit_exit()
-```
+``` 

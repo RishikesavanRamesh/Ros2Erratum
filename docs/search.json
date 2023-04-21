@@ -11,13 +11,97 @@
     "href": "index.html",
     "title": "ROS 2 : ERROR INDEX",
     "section": "",
-    "text": "ERROR ID\nCOMMIT\nShort Description\n\n\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf"
+    "text": "ERROR ID\nSnapshot\nShort Description\n\n\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf\n\n\nERR2064033\n32ed45a\nError when converting Xacro to Urdf"
   },
   {
     "objectID": "errors/ERR2064033.html",
     "href": "errors/ERR2064033.html",
-    "title": "hfuunny",
+    "title": "Error Code",
     "section": "",
-    "text": "hfuunny"
+    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\n\nuser@ubuntu:~$ echo \"This is some text.\"\n\nThis is some text.\n\nuser@ubuntu:~$ ls\n\nfile1.txt file2.txt file3.txt\n\nuser@ubuntu:~$ cat file1.txt\n\nContents of file1.txt\n\nuser@ubuntu:~$ sudo apt-get install package-name\n\nError: sudo: command not found\n\n\n\n\nBrief description of the error code.\n\n\n\nList of symptoms that indicate the error.\n\n\n\nDescription of the underlying causes of the error.\n\n\n\n\nStep-by-step instructions for fixing the error.\nAlternative solutions or workarounds, if applicable.\n\n\n\n\nTips for preventing the error from occurring in the future.\n\n\n\nLinks to relevant documentation, forums, or support channels.\n\n\n\nDescription of what you were trying to do when you encountered the error.\n\n\n\nThe Git commit SHA value where you encountered the error.\n\n\n\nDescription of the methods used for rectifying the error.\n\n\n\nDetailed steps taken to rectify the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#description",
+    "href": "errors/ERR2064033.html#description",
+    "title": "Error Code",
+    "section": "",
+    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\n\nuser@ubuntu:~$ echo \"This is some text.\"\n\nThis is some text.\n\nuser@ubuntu:~$ ls\n\nfile1.txt file2.txt file3.txt\n\nuser@ubuntu:~$ cat file1.txt\n\nContents of file1.txt\n\nuser@ubuntu:~$ sudo apt-get install package-name\n\nError: sudo: command not found\n\n\n\n\nBrief description of the error code."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#symptoms",
+    "href": "errors/ERR2064033.html#symptoms",
+    "title": "Error Code",
+    "section": "",
+    "text": "List of symptoms that indicate the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#causes",
+    "href": "errors/ERR2064033.html#causes",
+    "title": "Error Code",
+    "section": "",
+    "text": "Description of the underlying causes of the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#solutions",
+    "href": "errors/ERR2064033.html#solutions",
+    "title": "Error Code",
+    "section": "",
+    "text": "Step-by-step instructions for fixing the error.\nAlternative solutions or workarounds, if applicable."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#prevention",
+    "href": "errors/ERR2064033.html#prevention",
+    "title": "Error Code",
+    "section": "",
+    "text": "Tips for preventing the error from occurring in the future."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#additional-resources",
+    "href": "errors/ERR2064033.html#additional-resources",
+    "title": "Error Code",
+    "section": "",
+    "text": "Links to relevant documentation, forums, or support channels."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#context",
+    "href": "errors/ERR2064033.html#context",
+    "title": "Error Code",
+    "section": "",
+    "text": "Description of what you were trying to do when you encountered the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#git-commit-sha",
+    "href": "errors/ERR2064033.html#git-commit-sha",
+    "title": "Error Code",
+    "section": "",
+    "text": "The Git commit SHA value where you encountered the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#rectification-methods",
+    "href": "errors/ERR2064033.html#rectification-methods",
+    "title": "Error Code",
+    "section": "",
+    "text": "Description of the methods used for rectifying the error."
+  },
+  {
+    "objectID": "errors/ERR2064033.html#how-the-error-was-rectified",
+    "href": "errors/ERR2064033.html#how-the-error-was-rectified",
+    "title": "Error Code",
+    "section": "",
+    "text": "Detailed steps taken to rectify the error."
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Glossary"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
   }
 ]

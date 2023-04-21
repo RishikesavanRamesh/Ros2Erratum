@@ -1,0 +1,11 @@
+{
+  "hash": "caf52427cfa663b1e67f21d3e797ca93",
+  "result": {
+    "markdown": "---\ntitle: Error Code\n---\n\n\n\n## Description\n\n\n```{mermaid}\nflowchart LR\n  A[Hard edge] --> B(Round edge)\n  B --> C{Decision}\n  C --> D[Result one]\n  C --> E[Result two]\n```\n\n```{javascript .code-copy=false}\n$('#awesome-shell').shell({\n  user: \"foobar\",\n  host: \"MacMini\",\n  path: \"/etc/\",\n  style: \"osx\",\n  theme: \"dark\",\n  typed: true,\n  responsive: false,\n  commands: [\"First command\", \"Second command\", \"...\"]\n});\n```\n\n\nBrief description of the error code.\n\n## Symptoms\n\nList of symptoms that indicate the error.\n\n## Causes\n\nDescription of the underlying causes of the error.\n\n## Solutions\n\n1. Step-by-step instructions for fixing the error.\n2. Alternative solutions or workarounds, if applicable.\n\n## Prevention\n\nTips for preventing the error from occurring in the future.\n\n## Additional Resources\n\nLinks to relevant documentation, forums, or support channels.\n\n## Context\n\nDescription of what you were trying to do when you encountered the error.\n\n## Git Commit SHA\n\nThe Git commit SHA value where you encountered the error.\n\n## Rectification Methods\n\nDescription of the methods used for rectifying the error.\n\n## How the Error was Rectified\n\nDetailed steps taken to rectify the error.\n\n\n",
+    "supporting": [
+      "ERR2064033_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

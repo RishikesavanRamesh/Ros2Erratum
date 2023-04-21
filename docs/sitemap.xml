@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sta210-s22.github.io/website/about.html</loc>
-    <lastmod>2023-04-20T15:41:42.081Z</lastmod>
+    <lastmod>2023-04-21T02:59:30.779Z</lastmod>
   </url>
   <url>
     <loc>https://sta210-s22.github.io/website/index.html</loc>
-    <lastmod>2023-04-20T15:41:42.843Z</lastmod>
+    <lastmod>2023-04-21T02:54:15.230Z</lastmod>
   </url>
   <url>
     <loc>https://sta210-s22.github.io/website/errors/ERR2064033.html</loc>
-    <lastmod>2023-04-20T15:41:43.355Z</lastmod>
+    <lastmod>2023-04-21T05:38:46.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sta210-s22.github.io/website/blog.html</loc>
+    <lastmod>2023-04-21T02:58:20.818Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sta210-s22.github.io/website/glossary.html</loc>
+    <lastmod>2023-04-21T02:44:08.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sta210-s22.github.io/website/contact.html</loc>
+    <lastmod>2023-04-21T02:41:23.885Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sta210-s22.github.io/website/feedback.html</loc>
+    <lastmod>2023-04-21T02:41:26.564Z</lastmod>
   </url>
 </urlset>

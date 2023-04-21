@@ -1,1 +1,105 @@
-# hfuunny 
+# Error Code
+
+## Description
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+<br></br>
+
+<html>
+<head>
+<style>
+.terminal {
+  background-color: #5E2750;
+  color: #f0f0f0;
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 0.5rem;
+  white-space: pre-wrap;
+}
+
+.terminal .prompt {
+  color: lightgreen;
+  margin-right: 0.5rem;
+}
+
+.terminal .output {
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+.terminal .error {
+  color: #ff5f5f;
+  margin-left: 0.5rem;
+}
+
+</style>
+
+<pre class="terminal">
+<span class="prompt">user@ubuntu:~$</span> echo "This is some text."
+<br>
+<span class="output">This is some text.</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> ls
+<br>
+<span class="output">file1.txt file2.txt file3.txt</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> cat file1.txt
+<br>
+<span class="output">Contents of file1.txt</span>
+<br>
+<span class="prompt">user@ubuntu:~$</span> sudo apt-get install package-name
+<br>
+<span class="error">Error: sudo: command not found</span>
+</pre>
+</body>
+</html>
+
+
+<br></br>
+
+Brief description of the error code.
+
+## Symptoms
+
+List of symptoms that indicate the error.
+
+## Causes
+
+Description of the underlying causes of the error.
+
+## Solutions
+
+1. Step-by-step instructions for fixing the error.
+2. Alternative solutions or workarounds, if applicable.
+
+## Prevention
+
+Tips for preventing the error from occurring in the future.
+
+## Additional Resources
+
+Links to relevant documentation, forums, or support channels.
+
+## Context
+
+Description of what you were trying to do when you encountered the error.
+
+## Git Commit SHA
+
+The Git commit SHA value where you encountered the error.
+
+## Rectification Methods
+
+Description of the methods used for rectifying the error.
+
+## How the Error was Rectified
+
+Detailed steps taken to rectify the error.
